@@ -1,0 +1,25 @@
+:root {
+  --main-ff: "Poppins", sans-serif;
+  --d-grid: grid;
+
+  --clr-dominant: #272727;
+  --clr-complementary: rgb(206, 136, 244);
+  --clr-accent: #f3f3f3;
+}
+
+* {
+  margin: 0;
+  line-height: 1.5;
+}
+
+body {
+  background-color: var(--clr-dominant);
+  color: #fff;
+  min-height: 100vh;
+  font-family: var(--main-ff);
+}
+
+.center-all-element {
+  display: var(--d-grid);
+  place-items: center;
+}
